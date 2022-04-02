@@ -1,0 +1,13 @@
+version: "3"
+services:
+  website:
+    stdin_open: true
+    tty: true
+    build:
+      context: ./website
+    image: online-pos-backend
+    ports:
+      - "5040:80"
+    volumes:
+      - ./website/src:/var/www/html
+    read_only: false

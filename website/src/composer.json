@@ -1,0 +1,14 @@
+{
+    "name": "a-creative/online-pos-case",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Maya Kathrine Andersen",
+            "email": "m.andersen.post@gmail.com"
+        }
+
+    ],
+    "require" : {
+        "php": ">=7.4"
+    }
+}
