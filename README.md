@@ -1,10 +1,11 @@
 # INSTALL
 
 docker-compose up -d
+docker-compose exec website composer install
 
 # USE
 
-Go to http://localhost:5040
+Browse to http://localhost:5040
 
 # TESTS
 
