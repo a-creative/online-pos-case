@@ -1,6 +1,7 @@
 # INSTALL
 
 docker-compose up -d
+
 docker-compose exec website composer install
 
 # USE
