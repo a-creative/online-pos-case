@@ -2,7 +2,7 @@ $('#calc').on('click', () => {
 
     if ($('#year').val()) {
 
-        $.post('api.php', {
+        $.post('dateService.php', {
             year: $('#year').val()
         }, (result) => {
             $('#result').html(result);
